@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@500&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+  text-decoration: none;
+  list-style-type: none;
+  outline: none;
+}
+
+section {
+  padding: 20px 75px 75px;
+}
+
+section.home {
+  padding: 20px 0 75px 75px;
+}
+
+header {
+  background: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 40px 100px;
+  z-index: 10000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.5s;
+  /* opacity: 0.1; */
+}
+
+header.sticky {
+  padding: 10px 100px;
+  box-shadow: 0 5px 20px rgba(131, 51, 51, 0.3);
+}
+
+header > a.logo {
+  color: #000000;
+  font-weight: 700;
+  font-size: 2rem;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+header > a.logo:hover {
+  color: #bbbbbb;
+}
+
+header a.logo > span {
+  color: #016c13;
+}
+
+header > button.menu-toggle {
+  display: none;
+  color: #016c13;
+  font-size: 2.3rem;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+nav.navigation ul {
+  position: relative;
+  display: flex;
+  margin-top: 1rem;
+}
+
+nav.navigation > ul li a {
+  padding: 10px 16px;
+  list-style: none;
+  margin-left: 5rem;
+  transition: 0.4s;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+nav.navigation ul li > a {
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+nav.navigation > ul li a:hover {
+  background-color: #016c13;
+  color: #ffffff;
+}
+
+.title {
+  margin: 6rem 0 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title-text {
+  color: #062e32;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.title-text span {
+  color: #016c13;
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
+/* hero */
+.home {
+  margin-top: 10rem;
+  min-height: 40vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-size: cover;
+}
+
+.home .text-box {
+  width: 60%;
+  height: 100%;
+  color: rgb(5, 5, 5);
+}
+.home .text-box > p {
+  text-align: justify;
+  margin: 2rem 0;
+}
+
+.home .img-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home .img-box img {
+  width: 25rem;
+}
+
+.btn-content {
+  font-size: 1.2rem;
+  border: none;
+  width: 10rem;
+  padding: 1.1rem 2.1rem;
+  background-color: #016c13;
+  color: #fff;
+  border-radius: 2rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.circle {
+  z-index: -1;
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 90%;
+  height: 70%;
+  background: rgb(195, 50, 50);
+  clip-path: circle(220px at right);
+  background: #016c13;
+}
+
+/* content */
+.products {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.products .card {
+  width: 18rem;
+  min-height: 25rem;
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 1rem;
+}
+
+.card-image {
+  /* object-fit: cover; */
+  height: 55%;
+  width: 100%;
+}
+
+.card-title {
+  color: #016c13;
+}
+
+.card-category {
+  font-size: 0.75rem;
+  color: #707370;
+}
+
+.card-text {
+  text-align: justify;
+  font-size: 0.9rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* number of lines to show */
+  -webkit-box-orient: vertical;
+}
+
+.btn-container {
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-detail {
+  margin: 0 auto;
+  font-size: 0.9rem;
+  border: none;
+  width: 8rem;
+  background-color: #016c13;
+  color: #fff;
+  border-radius: 2rem;
+}
+
+.btn-detail:hover,
+.btn-content:hover {
+  background-color: #cbcbcb;
+  color: rgb(0, 0, 0);
+  transition: 0.4s;
+}
+
+footer {
+  padding: 25px 40px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+footer p {
+  color: #333;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .card-image {
+    width: 100%;
+  }
+}

@@ -1,0 +1,82 @@
+.btn-add {
+  outline: none !important;
+  background-color: rgb(34, 198, 40);
+  margin: 20px 0 10px;
+}
+
+.btn-action {
+  margin-left: 8px;
+}
+.btn-view {
+  outline: none !important;
+  background-color: rgb(80, 110, 216);
+  color: #fff;
+  padding: 5px 8px;
+}
+
+.btn-view:hover {
+  background-color: rgb(177, 185, 214);
+  color: #fff;
+  transition: 0.5s;
+}
+
+.btn-delete {
+  cursor: pointer;
+  outline: none !important;
+  background-color: rgb(227, 59, 59);
+  color: rgb(255, 255, 255);
+  padding: 5px 10px;
+}
+
+.btn-delete:hover {
+  background-color: rgb(230, 123, 123);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+a.btn-delete > i {
+  pointer-events: none;
+}
+
+table {
+  min-width: 600px;
+}
+.table > thead {
+  background-color: #0a7a84;
+  color: #fff;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+
+tbody > tr > :nth-child(1) {
+  min-width: 90px;
+}
+
+tbody > tr > :nth-child(2) {
+  min-width: 80px;
+}
+
+tbody > tr > :nth-child(3) {
+  min-width: 20px;
+}
+
+tbody > tr > :nth-child(4) {
+  min-width: 20px;
+}
+
+/* detail table */
+.tabel-detail > thead > tr > :nth-child(1) {
+  min-width: 200px;
+}
+.tabel-detail > thead > tr > :nth-child(2) {
+  min-width: 400px;
+}
+.tabel-detail > tbody > tr > td > img {
+  max-width: 500px;
+  min-width: 300px;
+}
