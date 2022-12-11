@@ -44,7 +44,7 @@ Pastikan untuk selalu menyalakan server (web server) agar API dapat digunakan, b
 ### Persiapan Project
 - Download  [XAMPP](https://www.apachefriends.org/download.html)
 - Download file project yang telah disediakan pada github (atau bisa juga dengan clone)
-(foto file github)
+  ![N|Solid](https://drive.google.com/uc?id=1_jlS5Jnc7MUKiVdJhKVlCPb51MEXIdtS)
 - Buka XAMPP yang telah diinstall, kemudian nyalakan _Apache_ dan _MySQL_
   ![N|Solid](https://drive.google.com/uc?id=1pieSjVVWJwwFFUNPzfbj9qXRpjCtAJ-1)
 - Buatlah database baru dengan nama _sai_project_
